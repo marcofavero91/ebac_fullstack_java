@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header li {
+    display: inline;
+    color: #F0E9D2;
+}
+
+header a {
+    color: #F0E9D2;
+    margin: .5rem;
+}
+
+header a:visited {
+    color: #F0E9D2;
+}
+
+header a:hover {
+    color: #181D31;
+    background-color: #F0E9D2;
+}
+
+h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 4rem;
+    color: #F0E9D2;
+}
+h2 {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 1.5rem;
+    margin-bottom: .5rem;
+    font-family: 'DM Serif Display', serif;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: .5rem;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+}
+
+.sec1 {
+    background-color: #F0E9D2;
+}
+
+.sec2 {
+    background-color: #E6DDC4;
+}
+
+.top-container {
+    background-color: #181D31;
+    padding: 1rem;
+}
+
+.title {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.articles article img {
+    width: 100%;
+    border-radius: 1%;
+}
+
+.articles article {
+    width: 30%;
+    margin-bottom: 1.5rem;
+}
+
+.articles a {
+    background-color: #181D31;
+    padding: .2em .6em;
+    margin: .5rem 0;
+    display: inline-block;
+    border-radius: 5%;
+    border-style: solid;
+    border-width: thin;
+    border-color: #181D31;
+}
+
+.sec1 a {
+    color: #F0E9D2;
+}
+
+.sec1 a:hover {
+    background-color: #F0E9D2;
+    color: #181D31;
+}
+
+.sec2 a {
+    color: #E6DDC4;
+}
+
+.sec2 a:hover {
+    background-color: #E6DDC4;
+    color: #181D31;
+}
+
+time {
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    font-size: .7rem;
+    margin-bottom: .7rem;
+    display: inline-block;
+}
